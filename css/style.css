@@ -1,0 +1,30 @@
+
+:root {
+	--color-yellow: #f2b807;
+	--color-purple500: #9b72f2;
+	--color-red500: #f24968;
+	--color-green500: #14d990;
+}
+
+body {
+	background-image: linear-gradient(
+		180deg,
+		hsl(259deg 89% 55%) 0%,
+		hsl(259deg 86% 63%) 50%,
+		hsl(259deg 83% 70%) 100%
+	);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: "Poppins", sans-serif;
+	height: 100%;
+}
+
+.form-container {
+	max-width: 50%;
+	padding: 1rem;
+}
+
+html,
+body {
+	height: 100%;
+}
